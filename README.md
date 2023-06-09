@@ -1,8 +1,32 @@
 # convo2canvas 
-Things you will need in order to run this bot:
+
+Convo2Canvas is a dynamic Python bot that transforms conversation inputs into unique pieces of art. 
+Utilizing the GPT-3.5-turbo model, it processes text from a Discord channel, generating creative prompts which are then used to trigger a Stable Diffusion process for image generation.
+
+This unique integration between natural language processing and artificial image synthesis results in an interactive tool that turns text-based conversations into a visual spectacle, in real-time.
+
+Key Features:
+
+Real-time monitoring of a specified Discord channel for new messages.
+Advanced text processing using OpenAI's GPT-3.5-turbo model.
+Generating creative visual prompts from text.
+Producing unique, abstract images based on the prompts using Stable Diffusion.
+Responding to the original message with the generated image.
+Potential applications include but are not limited to:
+
+Interactive art creation.
+Gaming and world-building.
+Social media engagement.
+Educational and research tools in AI.
+Please note: The bot's text processing instructions, image dimensions, and other parameters can be easily customized to suit your needs.
+
+
+**Things you will need in order to run this bot:**
 
 A locally installed and running version of AUTOMATIC1111: 
-https://github.com/AUTOMATIC1111/stable-diffusion-webui
+Get it here: https://github.com/AUTOMATIC1111/stable-diffusion-webui
+There are a lot of instructional videos for how to do this.
+Aitrepreneur has great tutorials: https://www.youtube.com/watch?v=VXEyhM3Djqg&t=13s
 
 A Discord bot: 
 https://discord.com/developers/applications

@@ -26,7 +26,7 @@ async def generate_image(prompt, steps=None):
         "width": 512,
         "height": 512,
         "cfg_scale": 7,
-    } 
+    } #there are many more parameters that you can utilize via Automatic1111
 
     async with aiohttp.ClientSession() as session:
         async with session.post(url, json=payload) as response:
